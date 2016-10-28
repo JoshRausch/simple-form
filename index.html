@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Moonflower's Coffee</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css">
+    <!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"> </script>
+  <![endif]-->
+</head>
+
+<body>
+    <main>
+        <h1>Moonflower's Coffee</h1>
+        <br>
+        <h2>Newsletter</h2>
+        <p>Register for our weekly or monthly newsletter by submitting the following form.</p>
+        <h3>Newsletter Subscription</h3>
+        <p>Required fields are marked with an asterisk *</p>
+        <form name="subscibe" method="post" id="subscribe" action="demo.php">
+            <fieldset>
+                <legend>Frequency:</legend>
+                <input type="radio" name="frequency" id="subweek" value="week" checked> Weekly
+                <input type="radio" name="frequency" id="submonth" value="month"> Monthly
+                <input type="radio" name="frequency" id="subspecial" value="special"> Specials Only
+            </fieldset>
+            <br>
+            <br>
+            <label for="myfirstname"> * First Name:</label>
+            <input type="text" name="myfirstname" id="myfirstname" size="35" required="required" placeholder="your first name">
+            <br>
+            <br>
+            <label for="mylastname">* Last Name:</label>
+            <input type="text" name="mylastname" id="mylastname" size="35" required="required" placeholder="your last name">
+            <br>
+            <br>
+            <label for="myemail">* E-mail:</label>
+            <input type="email" name="myemail" id="myemail" size="35" required="required">
+            <br>
+            <br>
+            <label for="mycomments">Comments:</label>
+            <textarea name="mycomments" id="mycomments" rows="5" cols="34"></textarea>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+    <footer>
+        <p>Copyright &copy; Moonflower's Coffee
+            <br> Contact us at <a href="mailto:support@moonflowerscoffee.com">support@moonflowerscoffee.com</a></p>
+    </footer>
+</body>
+
+
+</html>
